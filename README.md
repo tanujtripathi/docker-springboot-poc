@@ -9,7 +9,7 @@ This project consists of connectivity of dockerized spring-boot with oracle as w
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
----
+
 ### application.properties
 ```
  spring.datasource.url=jdbc:h2:mem:dockerdb
@@ -31,7 +31,7 @@ This project consists of connectivity of dockerized spring-boot with oracle as w
 			<artifactId>ojdbc8</artifactId>
 			<scope>runtime</scope>
 		</dependency>
----
+
     
 ### application.properties
 ```
