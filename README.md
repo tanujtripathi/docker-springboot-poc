@@ -4,11 +4,13 @@ This project consists of connectivity of dockerized spring-boot with oracle as w
 ## For In-memory database (h2 is our case)
 
 ### pom.xml
+```
 	<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+	   <groupId>com.h2database</groupId>
+	   <artifactId>h2</artifactId>
+	   <scope>runtime</scope>
+	</dependency>
+```
 
 ### application.properties
 ```
@@ -27,10 +29,10 @@ This project consists of connectivity of dockerized spring-boot with oracle as w
 
 ### pom.xml
 	<dependency>
-			<groupId>com.oracle.ojdbc</groupId>
-			<artifactId>ojdbc8</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+	   <groupId>com.oracle.ojdbc</groupId>
+           <artifactId>ojdbc8</artifactId>
+	   <scope>runtime</scope>
+	</dependency>
 
     
 ### application.properties
